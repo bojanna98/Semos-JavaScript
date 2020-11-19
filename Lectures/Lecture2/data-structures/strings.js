@@ -132,3 +132,5 @@ console.log(notFound); // -1 (not found)
 
 console.log('Hello World'.indexOf('World', 1)); // 6
 console.log('Hello World'.indexOf('World', 7)); // -1 the value is not found
+
+//charAt
