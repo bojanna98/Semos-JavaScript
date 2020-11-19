@@ -26,14 +26,17 @@ const arebothNumbersGtThree=number1 > 3 && number2 > 3; // ako number2 e < 3 tog
 console.log('Check number with logical AND', arebothNumbersGtThree )
 
 //Logigal OR (||)
-// False e SAMO ako se dvete false, site ostanite se true
+//true || true = true
+//true || false = true
+//false || true = true
+//false || false = false
 const logicalOr=number1 > 3 || number2 > 3;
 console.log('Check number with logical OR', logicalOr)
 
 console.log('Check OR', 3 > 2 || -2 > 0 || '2'=== 2 || 'hello'=='hello'); // (||) potrebno e samo edno true za uslovot da e true
 console.log('Check AND', 3 > 2 && -2 > 0 && '2'=== 2 && 'hello'=='hello'); // (&&) mora site da se true za da uslovot e true
 
-const checkANDandOR = (3 >2 && -2 < 0) || ('2'== 2 && 'hello'==='hello'); //true || true => true
+const checkANDandOR = (3 > 2 && -2 < 0) || ('2'== 2 && 'hello'==='hello'); //true || true => true
 console.log(checkANDandOR); //true
 const checkLogical = (3 >2 || -2 < 0) && ('2'=== 2 || 'hello'!=='hello');// true && false => false
 console.log(checkLogical); //false
