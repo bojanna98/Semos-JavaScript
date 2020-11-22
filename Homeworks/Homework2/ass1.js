@@ -4,7 +4,8 @@ function evenLengthWords(str) {
 
 const words = str.split(' ');
 var arr= words.filter((e)=>{return e.length %2===0});
-return arr;
+var nonDuplicatedArray = [...new Set(arr)];
+return nonDuplicatedArray;
 
 }
 console.log(evenLengthWords(text));
