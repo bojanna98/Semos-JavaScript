@@ -12,5 +12,7 @@ function greeting() {
 }
 
 console.log(text);
+
 greeting();
+
 console.log(text);
