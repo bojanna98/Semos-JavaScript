@@ -23,5 +23,7 @@ console.log(incrementTwo);
 const greaterThenThree = numbers.filter(number => number > 3);
 console.log(greaterThenThree);
 
-console.log(5>6>7);
-console.log(5<6<7);
+console.log(5 > 6 > 7); // false
+console.log(5 < 6 < 7); // true
+
+// Vo javascript true = 1, false = 0 !!!
