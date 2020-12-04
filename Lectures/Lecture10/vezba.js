@@ -31,3 +31,5 @@ const teacher = new Teacher ('Bojana', 'Cvetkovska', 'female', 'Matematika');
 console.log(teacher);
 
 student.cal();
+
+console.log('Hello');
