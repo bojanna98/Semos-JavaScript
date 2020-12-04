@@ -38,6 +38,3 @@ const cat = new Cat('Foo');
 const chicken = new Chicken('Boo');
 cat.eat();
 chicken.eat();
-
-
-console.log('Hello');
